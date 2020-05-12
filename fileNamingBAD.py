@@ -1,5 +1,3 @@
-# line 29 - INCOMPLETE - Codesignal Recover challenge - TODO 
-
 def fileNaming(names):
     def calculateHash(inputString):
         P = 307
@@ -26,7 +24,8 @@ def fileNaming(names):
             position = (position + 1) % hashMapSize
         return position
 
-    ...
+    for i in range(hashMapSize):
+        hashMap.append(['', -1, 0])
 
     for i in range(len(names)):
         hashValue = calculateHash(names[i])
