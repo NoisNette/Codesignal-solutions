@@ -1,0 +1,10 @@
+def calculationsWithCoins(a, b, c):
+    s = set()
+    s.add(a)
+    s.add(b)
+    s.add(c)
+    s.add(a + b)
+    s.add(b + c)
+    s.add(a + c)
+    s.add(a + b + c)
+    return len(s)
