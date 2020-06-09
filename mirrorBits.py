@@ -1,3 +1,2 @@
 def mirrorBits(a):
-    b = bin(a)[2:]
-    return int(b[::-1], 2)
+    return int(bin(a)[2:][::-1], 2)
