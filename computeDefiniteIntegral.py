@@ -1,4 +1,3 @@
-import math
 def computeDefiniteIntegral(l, r, p):
     R = 0
     L = 0
