@@ -1,4 +1,4 @@
-int bfsComponentSize(std::vector<std::vector<bool>> matrix) {
+int bfsComponentSize(vector<vector<bool>> matrix) {
     using namespace std;
     vector<int> nodes{1};
     set<int> visited;
