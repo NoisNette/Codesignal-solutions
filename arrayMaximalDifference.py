@@ -1,5 +1,4 @@
 def arrayMaximalDifference(inputArray):
-
     answer = 0
     for i in range(len(inputArray)):
         for j in range(len(inputArray)):
