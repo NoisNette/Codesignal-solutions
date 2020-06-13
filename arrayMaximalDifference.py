@@ -1,7 +1,6 @@
 def arrayMaximalDifference(inputArray):
-    answer = 0
-    for i in range(len(inputArray)):
-        for j in range(len(inputArray)):
-            if inputArray[i] - inputArray[j] > answer:
-                answer = inputArray[i] - inputArray[j]
-    return answer
+    ans = 0
+    for el1 in inputArray:
+        for el2 in inputArray:
+            if el1 - el2 > ans: ans = el1 - el2
+    return ans
