@@ -1,5 +1,3 @@
-def phoneCall(min1, min2_10, min11, s):
-    if s < min1: return 0 
-    if s == min1: return 1 
-    if s <= min1 + 9 * min2_10: return 1 + (s - min1) // min2_10 
-    return 10 + (s - min1 - 9 * min2_10) // min11
+def phoneCall(a, b, c, d):
+    d -= a + 9 * b
+    return d // [c, b][d < 1] + 10
