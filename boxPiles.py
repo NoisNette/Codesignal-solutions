@@ -12,3 +12,6 @@ def boxPiles(a):
                 used_num += 1
         ans += 1
     return ans
+
+
+boxPiles = lambda a: max((sum(x <= n for x in a)+n) // (n + 1) for n in a)
