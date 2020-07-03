@@ -1,5 +1,2 @@
 def extractMatrixColumn(matrix, column):
-    l = []
-    for i in range(len(matrix)):
-        l.append(matrix[i][column])
-    return l
+    return [matrix[i][column] for i in range(len(matrix))]
