@@ -1,7 +1,6 @@
 def amendTheSentence(s):
-    l = list(s)
     ans = []
-    for el in l:
+    for el in s:
         if el.isupper():
             ans.append(' ')
         ans.append(el.lower())
