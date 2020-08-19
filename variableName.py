@@ -1,0 +1,1 @@
+variableName = str.isidentifier
